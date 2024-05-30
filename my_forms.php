@@ -17,9 +17,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i"
         rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/pickers/daterange/daterangepicker.css">
-    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/pickers/datetime/bootstrap-datetimepicker.css">
-    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/pickers/pickadate/pickadate.css">
+
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/pickers/daterange/daterangepicker.css">
@@ -38,9 +36,6 @@
     <link rel="stylesheet" type="text/css" href="app-assets/css/core/colors/palette-gradient.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/forms/wizard.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/pickers/daterange/daterange.css">
-    <!-- END: Page CSS-->
-
-    <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- END: Custom CSS-->
 
@@ -613,14 +608,15 @@
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="startdate">Start Date:</label>
-                                                            <input type="text" class="form-control pickadate picker__input picker__input--active" placeholder="Basic Pick-a-date" readonly="" id="P1043209353" aria-haspopup="true" aria-readonly="false" aria-owns="P1043209353_root">
+                                                            <input type="date" class="form-control" id="start1" name="start1"
+                                                                required>
                                                         </div>
                                                     </div>
 
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="enddate">End Date:</label>
-                                                            <input type="date" class="form-control" id="end1" required>
+                                                            <input type="date" class="form-control" id="endate" name="endate" required>
 
                                                         </div>
                                                     </div>
@@ -630,7 +626,7 @@
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="salary1">Salary:</label>
-                                                            <input type="text" class="form-control" id="salary1"
+                                                            <input type="text" class="form-control" id="salary1" name="salary1"
                                                                 required>
                                                         </div>
                                                     </div>
@@ -638,7 +634,7 @@
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="salperd1">Salary Period:</label>
-                                                            <select class="custom-select form-control" id="salperd1"
+                                                            <select class="custom-select form-control" id="salperd1" name="salperd1"
                                                                 name="country" required>
                                                                 <option value="" Disabled>Select</option>
                                                                 <option value="monthly">Monthly </option>
@@ -805,19 +801,6 @@
     <script src="app-assets/js/core/app-menu.js"></script>
     <script src="app-assets/js/core/app.js"></script>
     <!-- END: Theme JS-->
-    <script src="app-assets/vendors/js/pickers/dateTime/moment-with-locales.min.js"></script>
-    <script src="app-assets/vendors/js/pickers/dateTime/bootstrap-datetimepicker.min.js"></script>
-    <script src="app-assets/vendors/js/pickers/pickadate/picker.js"></script>
-    <script src="app-assets/vendors/js/pickers/pickadate/picker.date.js"></script>
-    <script src="app-assets/vendors/js/pickers/pickadate/picker.time.js"></script>
-    <script src="app-assets/vendors/js/pickers/pickadate/legacy.js"></script>
-    <script src="app-assets/vendors/js/pickers/daterange/daterangepicker.js"></script>
-    <!-- END: Page Vendor JS-->
-
-    <!-- BEGIN: Theme JS--> 
-    <!-- BEGIN: Page JS-->
-    <script src="app-assets/js/scripts/pickers/dateTime/bootstrap-datetime.js"></script>
-    <script src="app-assets/js/scripts/pickers/dateTime/pick-a-datetime.js"></script>
 
     <!-- BEGIN: Page JS-->
     <script src="app-assets/js/scripts/forms/wizard-steps.js"></script>
