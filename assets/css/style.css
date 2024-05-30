@@ -1,0 +1,68 @@
+/*================================================================================
+	Item Name: Stack - Responsive Admin Theme
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+/* Registration Form headings */
+.cra-hd{
+    font-size: 18px;
+	font-weight: 500;
+	margin: 15px 0px 15px 0px;
+}
+
+.main-card-form{
+	margin: 20px 0px 20px 0px;
+}
+
+/* Cart page img column */
+
+th.cart-img-col {
+    width: 180px !important;
+    
+}
+
+/* Cart page Desc column */
+th.cart-desc-col{
+	width: 450px !important;
+
+}
+
+/* product tittle */
+
+.cart-prod-tittle{
+	font-size: 16px;
+    font-weight: 500;
+}
+
+/* Cart Pg Tittle */
+
+.cart-pg-tittle{
+
+	font-weight: 600;
+    font-size: 22px;
+    margin: 20px 10px 20px 10px;
+}
+/* Checkout & shopping btn */
+
+.checknshopng:hover {
+    background-color: #124E66;
+    color: #FFF !important;
+}
+
+.checknshopng {
+    border: 1px solid #124e66;
+    /* padding: 11px 20px 10px 20px; */
+    width: 200px;
+}
+
+/* Cart Total */
+
+td.cart-total {
+    font-weight: 700;
+}
