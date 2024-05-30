@@ -16,7 +16,7 @@ include("sessioninput.php");
     <meta name="author" content="PIXINVENT">
     <title>HTML 5 Data Export - Stack Responsive Bootstrap 4 Admin Template</title>
     <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
-    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon-32.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
